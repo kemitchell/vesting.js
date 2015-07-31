@@ -1,6 +1,6 @@
 {
   "name": "vesting",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Calculate standard stock vesting",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "repository": "kemitchell/vesting.js",
