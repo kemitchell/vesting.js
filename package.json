@@ -1,12 +1,11 @@
 {
   "name": "vesting",
-  "version": "1.0.0",
   "description": "Calculate standard stock vesting",
+  "version": "1.0.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
-  "repository": "kemitchell/vesting.js",
-  "license": "MIT",
-  "scripts": {
-    "test": "jsmd-tape README.md | sed 's!vesting!./!' | node"
+  "dependencies": {
+    "anniversary": "~1.1.0",
+    "round": "~2.0.0"
   },
   "devDependencies": {
     "jsmd-tape": "~0.1.5",
@@ -20,8 +19,9 @@
     "stock",
     "vesting"
   ],
-  "dependencies": {
-    "anniversary": "~1.1.0",
-    "round": "~2.0.0"
+  "license": "MIT",
+  "repository": "kemitchell/vesting.js",
+  "scripts": {
+    "test": "jsmd-tape README.md | sed 's!vesting!./!' | node"
   }
 }
