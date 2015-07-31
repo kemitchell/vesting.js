@@ -12,6 +12,14 @@
     "jsmd-tape": "~0.1.5",
     "tape": "~4.0.1"
   },
+  "keywords": [
+    "contract",
+    "law",
+    "securities",
+    "startup",
+    "stock",
+    "vesting"
+  ],
   "dependencies": {
     "anniversary": "~1.1.0",
     "round": "~2.0.0"
