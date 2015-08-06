@@ -1,5 +1,3 @@
-Calculate standard stock vesting.
-
 # One-Year Cliff
 
 ```javascript
