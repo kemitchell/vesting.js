@@ -1,6 +1,6 @@
 {
   "name": "vesting",
-  "description": "calculate standard stock vesting",
+  "description": "calculate stock vesting",
   "version": "1.0.1",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "dependencies": {
