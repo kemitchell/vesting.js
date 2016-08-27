@@ -8,9 +8,9 @@
     "round": "~2.0.0"
   },
   "devDependencies": {
-    "jsmd-tape": "~0.1.5",
-    "standard": "^8.0.0",
-    "tape": "~4.0.1"
+    "defence-cli": "^2.0.1",
+    "replace-require-self": "^1.1.1",
+    "standard": "^8.0.0"
   },
   "keywords": [
     "contract",
@@ -23,7 +23,7 @@
   "license": "MIT",
   "repository": "kemitchell/vesting.js",
   "scripts": {
-    "test": "jsmd-tape README.md | sed 's!vesting!./!' | node",
+    "test": "defence -i javascript README.md | replace-require-self | node",
     "lint": "standard"
   }
 }
