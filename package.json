@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "jsmd-tape": "~0.1.5",
+    "standard": "^8.0.0",
     "tape": "~4.0.1"
   },
   "keywords": [
@@ -22,6 +23,7 @@
   "license": "MIT",
   "repository": "kemitchell/vesting.js",
   "scripts": {
-    "test": "jsmd-tape README.md | sed 's!vesting!./!' | node"
+    "test": "jsmd-tape README.md | sed 's!vesting!./!' | node",
+    "lint": "standard"
   }
 }

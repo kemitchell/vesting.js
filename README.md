@@ -18,19 +18,22 @@ vested(
 vested(
   1000000,
   new Date(2015, 0, 1),
-  new Date(2016, 0, 1)) // => 250000
+  new Date(2016, 0, 1)
+) // => 250000
 
 // Monthly after the cliff
 vested(
   1000000,
   new Date(2015, 0, 1),
-  new Date(2016, 1, 1)) // => 250000 + 15625
+  new Date(2016, 1, 1)
+) // => 250000 + 15625
 
 // Fully vested
 vested(
   1000000,
   new Date(2015, 0, 1),
-  new Date(2020, 0, 1)) // => 1000000
+  new Date(2020, 0, 1)
+) // => 1000000
 ```
 
 # _n_-Year Cliff
@@ -42,19 +45,22 @@ var vested = require('vesting')(48, 4, 7)
 vested(
   1000000,
   new Date(2015, 0, 1),
-  new Date(2015, 0, 2)) // => 0
+  new Date(2015, 0, 2)
+) // => 0
 
 // After 1 year
 vested(
   1000000,
   new Date(2015, 0, 1),
-  new Date(2016, 0, 1)) // => 0
+  new Date(2016, 0, 1)
+) // => 0
 
 // After 7 years
 vested(
   1000000,
   new Date(2015, 0, 1),
-  new Date((2015 + 7), 0, 1)) // => 250000
+  new Date((2015 + 7), 0, 1)
+) // => 250000
 ```
 
 # Straight (No Cliff)
@@ -65,5 +71,6 @@ var vested = require('vesting')(48)
 vested(
   4800000,
   new Date(2015, 0, 1),
-  new Date(2015, 1, 1)) // => 100000
+  new Date(2015, 1, 1)
+) // => 100000
 ```
